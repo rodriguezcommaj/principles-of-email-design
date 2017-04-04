@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Principles of Email Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+      /* CLIENT-SPECIFIC STYLES */
+      body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+      table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+      img { -ms-interpolation-mode: bicubic; }
+
+      /* RESET STYLES */
+      img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+      table { border-collapse: collapse !important; }
+      body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+      /* iOS BLUE LINKS */
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+
+      /* BASIC STYLES */
+      h1 {
+        color: #1A2927;
+        font-family: sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 36px;
+        margin: 0;
+      }
+
+      h2 {
+        color: #1A2927;
+        font-family: sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 24px;
+        margin: 0;
+      }
+
+      .blurb {
+        color: #1A2927;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 32px;
+        margin: 0;
+      }
+
+      .date {
+        color: #a8a9ac;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 24px;
+        margin: 0;
+      }
+
+      .copy {
+        color: #68696c;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+        margin: 0;
+      }
+
+      .footer {
+        color: #a8a9ac;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 20px;
+        margin: 0;
+      }
+
+      .text-link {
+        color: #7c72dd;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .button {
+        background-color: #7c72dc;
+        border-bottom: 16px solid #7c72dc;
+        border-left: 28px solid #7c72dc;
+        border-radius: 26px;
+        border-right: 28px solid #7c72dc;
+        border-top: 16px solid #7c72dc;
+        color: #ffffff;
+        display: block;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        text-decoration: none;
+      }
+
+      .responsive-img {
+        color: #68696c;
+        display: block;
+        font-family: sans-serif;
+        font-size: 24px;
+      max-width: 100%;
+        min-width: 100px;
+        width: 100%;
+      }
+
+      /* RESPONSIVE STUFF */
+      @media screen and (max-width: 600px) {
+        .responsive-table {
+              width: 100% !important;
+        }
+
+        h1 {
+            font-size: 28px !important;
+            line-height: 28px !important;
+        }
+
+        h2 {
+            text-align: center !important;
+        }
+
+        .blurb {
+            text-align: left !important;
+        }
+
+        .copy {
+            font-size: 18px !important;
+            line-height: 32px !important;
+        }
+
+        .copy-center {
+            text-align: center !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #f8f9fc; margin: 0 !important; padding: 0 !important;">
+
+    <!-- HIDDEN PREHEADER TEXT -->
+    <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+        Join us as we dig into the components that power every HTML email campaign and learn to build or update your own emails. A few hours of email geekery and camaraderie.
+    </div>
+
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td bgcolor="#f8f9fc" align="center">
+          <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+            <!-- HEADER -->
+            <tr>
+              <td align="center" valign="top" style="padding: 60px 10px 20px 10px;">
+                <h1>The Principles of Email Design</h1>
+              </td>
+            </tr>
+            <!-- DATE -->
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 20px 10px;">
+                <span class="date">&mdash; April 5, 2017 &mdash;</span>
+              </td>
+            </tr>
+            <!-- Blurb -->
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 20px 10px;">
+                <p class="blurb">A detailed look at the basics of coding for email, this workshop digs into the individual components that go into every email campaign.</p>
+              </td>
+            </tr>
+            <!-- IMAGE -->
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 20px 10px;">
+                <img alt="Fun with email" src="http://litmuswww.s3.amazonaws.com/TED16-Workshops/Elements/email@2x.png" width="600" class="responsive-img" border="0">
+              </td>
+            </tr>
+            <!-- COPY -->
+            <tr>
+              <td align="left" valign="top" style="padding: 20px 10px 20px 10px;">
+                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, vel. Ea, repudiandae error inventore non <a href="https://litmus.com" class="text-link">alias amet totam</a> tempora accusantium, quasi delectus explicabo, laborum deleniti nesciunt vel iure voluptas blanditiis!</p>
+              </td>
+            </tr>
+            <!-- COPY -->
+            <tr>
+              <td align="left" valign="top" style="padding: 0px 10px 20px 10px;">
+                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, vel. Ea, repudiandae error inventore non alias amet totam tempora accusantium, quasi delectus explicabo, laborum deleniti nesciunt vel iure voluptas blanditiis!</p>
+              </td>
+            </tr>
+            <!-- BUTTON -->
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 20px 10px;">
+                <!-- LINK -->
+                <table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                      <td align="center">
+                          <a href="https://litmus.com/" target="_blank" class="button">Check out the resources &rarr;</a>
+                      </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- COPY -->
+            <tr>
+              <td align="left" valign="top" style="padding: 20px 10px 20px 10px;">
+                <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, vel. Ea, repudiandae error inventore non alias amet totam tempora accusantium, quasi delectus explicabo, laborum deleniti nesciunt vel iure voluptas blanditiis!</p>
+              </td>
+            </tr>
+            <!-- COLUMNS SECTION -->
+            <tr>
+              <td align="center" valign="top" style="padding: 20px 10px 60px 10px;">
+                <!-- TWO COLUMNS -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td>
+                      <!-- LEFT COLUMN -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="47%" align="left" class="responsive-table">
+                        <tr>
+                          <td>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td>
+                                  <img alt="Number 1" src="http://litmuswww.s3.amazonaws.com/TED16-Workshops/Elements/number1@2x.png" width="280" class="responsive-img" border="0">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px 0px 10px 0px">
+                                  <h2>Maybe this one</h2>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="copy-center">
+                                  <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit aspernatur laudantium.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- RIGHT COLUMN -->
+                      <table border="0" cellpadding="0" cellspacing="0" width="47%" align="right" class="responsive-table">
+                        <tr>
+                          <td class="mobile-column-right">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                              <tr>
+                                <td>
+                                  <img alt="Number 2" src="http://litmuswww.s3.amazonaws.com/TED16-Workshops/Elements/number2@2x.png" width="280" class="responsive-img" border="0">
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 10px 0px 10px 0px">
+                                  <h2>Or this one</h2>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="copy-center">
+                                  <p class="copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit aspernatur laudantium.</p>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- FOOTER -->
+            <tr>
+              <td align="center" valign="top" style="border-top: 1px solid #d8d9dc; padding: 20px 10px 60px 10px;">
+                <p class="footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut illum recusandae id iusto eos dolore quisquam sequi incidunt voluptatem aspernatur optio reiciendis autem illo, labore, nobis velit fugit nisi saepe.</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      </table>
+
+  </body>
+</html>
