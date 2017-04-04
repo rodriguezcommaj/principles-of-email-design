@@ -1,7 +1,7 @@
 # The Principles of Email Design
 A repository of coding resources for anyone first dipping their toes into the waters of HTML email design. Godspeed.
 
-Originally released as part of a [Litmus Live Workshop](https://litmus.com/email-workshops) of the same name.
+Originally released as part of a [Litmus Live Workshop](https://litmus.com/email-workshops) of the same name. The example files from the workshop can be found in the `Workshop Files` directory.
 
 Below you'll find some information on different techniques for designing and developing HTML email campaigns along with links to some inspiring email campaigns and other valuable resources.
 
